@@ -8,19 +8,19 @@ const content = () => {
     <div className="main">
       <div className="infoSlider">
         <div>
-          <img src={blueLine} alt=" " className="imgLine" />
+          <div className="word1">
+            АЭБ - большие возможностей для малого бизнеса
+          </div>
+          <div className="word2">
+            Бесплатное обслуживание на пакете «Для развития» первые 6 месяцев.
+            Предложение до 20.12.21
+          </div>
+          <div className="button">Стать клиентом</div>
         </div>
-        <div>
+        <div className="imageWrapper">
+          {/* <img src={blueLine} alt=" " className="imgLine" /> */}
           <img src={mainPhoto} alt=" " className="imgMain" />
         </div>
-        <div className="word1">
-          АЭБ - большие возможностей для малого бизнеса
-        </div>
-        <div className="word2">
-          Бесплатное обслуживание на пакете «Для развития» первые 6 месяцев.
-          Предложение до 20.12.21
-        </div>
-        <div className="button">Стать клиентом</div>
       </div>
       <div className="infoStatic">
         <div className="word3">

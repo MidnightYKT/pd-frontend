@@ -10,16 +10,18 @@ const ContentApp = () => {
         <p>На развите предпринимательской деятельности </p>
       </div>
       <div className="TabApp">
-        <img src={imgApp} alt=" " className="addImg" />
-        <h1>Программа 9,95%</h1>
-        <p className="textTwo">
-          Льготное кредитование клиентов категории «Микропредприятия» по
-          кредитному продукту «Кредит по Программе 9,95»
-        </p>
-        <div className="buttonApp">
-          <div className="buttonAppOne">Подать заявку онлайн</div>
-          <div className="buttonAppTwo">Все программы кредитования</div>
+        <div>
+          <h1>Программа 9,95%</h1>
+          <p className="textTwo">
+            Льготное кредитование клиентов категории «Микропредприятия» по
+            кредитному продукту «Кредит по Программе 9,95»
+          </p>
+          <div className="buttonApp">
+            <div className="buttonAppOne">Подать заявку онлайн</div>
+            <div className="buttonAppTwo">Все программы кредитования</div>
+          </div>
         </div>
+        <img src={imgApp} alt=" " className="addImg" />
       </div>
     </div>
   );
