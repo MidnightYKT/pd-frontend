@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.text {
+  width: 226px;
+  height: 110px;
+  font-size: 18px;
+}
+
+.imgLine {
+  width: 611px;
+  height: 600px;
+  position: absolute;
+  left: 570px;
+  top: 210px;
+}
+
+.imgMain {
+  width: 600px;
+  height: 446px;
+  position: absolute;
+  left: 630px;
+  top: 300px;
+}
+
+.infoSlider {
+  width: 1100px;
+  height: 600px;
+  border-radius: 20px;
+  background: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 70px 15px;
+  padding: 30px 70px;
+}
+
+.infoStatic {
+  display: flex;
+  justify-content: center;
+}
+
+.infoBusiness {
+  margin-top: 50px;
+}
+
+.infoBusinessSup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.Art1 {
+  padding: 20px;
+  width: 480px;
+  height: 250px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-image: url(../../image/img1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 1px right 20px;
+}
+
+.Art2 {
+  padding: 20px;
+  width: 480px;
+  height: 250px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-image: url(../../image/img2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 1px right 15px;
+}
+
+.word1 {
+  width: 401px;
+  height: 159px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 120%;
+  align-items: center;
+  color: white;
+  margin: 30px 0;
+}
+
+.word2 {
+  width: 300px;
+  height: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  color: white;
+  margin: 30px 0;
+}
+
+.word3 {
+  width: 360px;
+  height: 80;
+}
+
+.word4 {
+  margin-top: 80px;
+  width: 980px;
+  height: 80;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.button {
+  width: 250px;
+  height: 70px;
+  border-radius: 20px;
+  background: #2f88f0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 40px 0px;
+  cursor: pointer;
+}
