@@ -1,0 +1,85 @@
+.Footer {
+  width: 100%;
+  height: 446px;
+  background: #27303e;
+  background-image: url(../../image/FooterLogo.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50px right 100px;
+}
+
+.FooterInfo {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.FooterOne {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.FooterInfoComp {
+  width: 200px;
+  height: 50px;
+  margin-top: 21px;
+  margin-left: 5px;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.FooterInfoCompTwo {
+  height: 50px;
+  margin-top: 21px;
+  text-align: left;
+}
+
+.FooterInfoCompTwo2 {
+  height: 50px;
+  margin-top: 21px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.FooterInfoCompTwo3 {
+  height: 50px;
+  margin-top: 21px;
+  margin-left: 18%;
+}
+
+.FooterInfoApp {
+  margin-left: 100px;
+  margin-top: 21px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+}
+
+.FooterApp {
+  margin-left: 5px;
+  height: 50px;
+}
+
+#FooterTextOne {
+  font-size: 14px;
+  line-height: 120%;
+  color: #afafaf;
+}
+
+#FooterTextTwo {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#FooterTextLow {
+  font-size: 14px;
+  line-height: 120%;
+  color: #afafaf;
+}
+
+#FooterImg {
+  width: 55px;
+  height: 55px;
+  top: 23px;
+}

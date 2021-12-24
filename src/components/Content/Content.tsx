@@ -24,18 +24,18 @@ const content = () => {
       </div>
       <div className="infoStatic">
         <div className="word3">
-          <h1>6000</h1>
+          <h1 className="Color">6000</h1>
           <p>предпринемателей доверяют нам</p>
         </div>
         <div className="word3">
-          <h1>1,8 млн ₽</h1>
+          <h1 className="Color">1,8 млн ₽</h1>
           <p>
             переводы себе на карту без комиссии за 6 месяцев на пакете «Для
             развития»
           </p>
         </div>
         <div className="word3">
-          <h1>7 дней</h1>
+          <h1 className="Color">7 дней</h1>
           <p>займет регистрация ИП или ООО, нужен лишь паспорт</p>
         </div>
       </div>

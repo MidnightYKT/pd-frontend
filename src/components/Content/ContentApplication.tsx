@@ -4,14 +4,14 @@ import imgApp from "../../image/imgApp.svg";
 
 const ContentApp = () => {
   return (
-    <div className="Application">
+    <div className="Form">
       <div className="word4">
         <h1>Кредитования на особых условиях</h1>
         <p>На развите предпринимательской деятельности </p>
       </div>
       <div className="TabApp">
         <div>
-          <h1>Программа 9,95%</h1>
+          <h1 className="Color">Программа 9,95%</h1>
           <p className="textTwo">
             Льготное кредитование клиентов категории «Микропредприятия» по
             кредитному продукту «Кредит по Программе 9,95»
